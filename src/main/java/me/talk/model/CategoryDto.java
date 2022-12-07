@@ -1,2 +1,8 @@
-package me.talk.model;public class CategoryDto {
+package me.talk.model;
+
+import lombok.Data;
+
+@Data
+public class CategoryDto {
+    private String name;
 }

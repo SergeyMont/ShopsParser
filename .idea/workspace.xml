@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="212966ea-54bf-4d74-a215-68d313783637" name="Changes" comment="" />
+    <list default="true" id="212966ea-54bf-4d74-a215-68d313783637" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/ShopsParserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/ShopsParserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/client/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/client/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/client/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/client/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/client/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/client/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/client/WebClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/client/WebClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/ShopDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/ShopDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/repository/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/repository/OfferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/repository/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/repository/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/service/DownloaderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/service/DownloaderDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/service/TaskTimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/service/TaskTimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/talk/service/ValidationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/talk/service/ValidationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/me/talk/client/WebClientImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/me/talk/client/WebClientImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IScpLuFpEnKDYqRXl8UICWWkyF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,11 +65,110 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "619aa14368675431e8b89a3070f4d749"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="me.talk.client" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package -am -o -Dmaven.test.skip -T 1C" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration name="WebClientImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopsParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.talk.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.talk.client" />
+      <option name="MAIN_CLASS_NAME" value="me.talk.client.WebClientImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebClientImplTest.getShopList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopsParser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.talk.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.talk.client" />
+      <option name="MAIN_CLASS_NAME" value="me.talk.client.WebClientImplTest" />
+      <option name="METHOD_NAME" value="getShopList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopsParserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ShopsParser" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.talk.ShopsParserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.talk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="JUnit.WebClientImplTest.getShopList" />
+        <item itemvalue="Spring Boot.ShopsParserApplication" />
+        <item itemvalue="JUnit.WebClientImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +177,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670178611398</updated>
+      <workItem from="1670178614063" duration="3726000" />
+      <workItem from="1670228533558" duration="3684000" />
+      <workItem from="1670243890470" duration="676000" />
+      <workItem from="1670262893914" duration="8896000" />
+      <workItem from="1670311067974" duration="6804000" />
+      <workItem from="1670329743794" duration="5367000" />
+      <workItem from="1670352940838" duration="8289000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

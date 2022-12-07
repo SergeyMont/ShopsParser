@@ -1,0 +1,23 @@
+version: '3.1'
+services:
+  shops-server:
+    build: .
+    container_name: shops_parser
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://stats_db:5432/stats_db
+      - SPRING_DATASOURCE_USER=root
+      - SPRING_DATASOURCE_PASSWORD=root
+    depends_on:
+      - shops_db
+
+  shops_db:
+    image: postgres:14-alpine
+    container_name: shops_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=shops_db
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
